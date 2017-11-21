@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DONGKRAK HIDROLIK"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Dongkrak hidrolik merupakan salah satu aplikasi sederhana dari Hukum Pascal"
+        android:textSize="14sp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView59"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <edu.upi.cs.sukidaa.fluida.CustomVideoView
+        android:id="@+id/apl3vv1"
+        android:layout_width="330dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dari tayangan video bagaimana prinsip dongkrak hidrolik tersebut? Mengapa hanya menggunakan dongkrak yang berukuran kecil, mobil dapat terangkat dan ban yang bocor bisa diganti?"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/apl3vv1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/apl3play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/apl3vv1"
+        app:layout_constraintLeft_toLeftOf="@+id/apl3vv1"
+        app:layout_constraintRight_toRightOf="@+id/apl3vv1"
+        app:layout_constraintTop_toTopOf="@+id/apl3vv1"
+        app:srcCompat="@drawable/play" />
+</android.support.constraint.ConstraintLayout>

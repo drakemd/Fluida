@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="585dp"
+        android:layout_height="wrap_content"
+        android:text="Tentu, penerjun payung bawa alat untuk ngukur ketinggiannya!"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="15dp"
+        android:textSize="21sp"
+        android:layout_marginStart="12dp"
+        android:textColor="#ffff"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alatnya adalah . . . klik tombol di bawah ini"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="21sp"
+        android:padding="15dp"
+        android:textColor="#ffff"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:id="@+id/atm10btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnbackground"
+        android:text="Klik"
+        android:textSize="21sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:theme="@style/PrimaryFlatButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipperatm6"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp">
+
+        <ImageView
+            android:id="@+id/slide1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/atm10aslide"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/atm10aslide" />
+
+        <ImageView
+            android:id="@+id/slide2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/atm10bslide"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/atm10bslide" />
+    </ViewFlipper>
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/transparent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/nextselect"
+        app:layout_constraintLeft_toRightOf="@+id/viewFlipperatm6"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="84dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/transparent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/prevselect"
+        app:layout_constraintRight_toLeftOf="@+id/viewFlipperatm6"
+        android:layout_marginRight="12dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginTop="84dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/tvtamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="21dp"
+        android:text="Yaa,,, alat itu adalah Altimeter. Apa itu Altimeter?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipperatm6"
+        android:textSize="21sp"
+        android:textColor="#ffff"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:id="@+id/atm101tv"
+        android:layout_width="510dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/border_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Altimeter yaitu alat yang digunakan untuk menentukan ketinggian suatu tempat dengan mengkonversi dari besarnya tekanan udara. Dilengkapi juga perangkat aktivasi otomatis (Automatic activation device/ADD), sehingga pada ketinggian kurang dari 300 meter, kecepatan vertikal lebih dari 38 m/s perangkat akan diaktifkan untuk membuka kanopi cadangan dan penerjun payung membuka parasutnya."
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvtamb"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+</android.support.constraint.ConstraintLayout>

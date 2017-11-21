@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/tvatm71"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:text="Dari percobaan Torricelli bahwa tekanan udara pada permukaan laut adalah 1 atm atau 76 cmHg dan semakin tinggi suatu tempat dari permukaan laut maka tekanan udara akan semakin rendah. Setiap naik ketinggian 100 meter maka tekanan udara turun 1 cmHg."
+        android:background="@drawable/border_white"
+        android:gravity="center"
+        android:layout_marginRight="24dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="83dp"
+        android:padding="15dp"
+        android:textSize="22sp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="135dp"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/toricelli"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="3dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvatm71"
+        android:layout_marginRight="12dp"
+        app:layout_constraintHorizontal_bias="0.666"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:text="Evangelista Toricelli"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="7dp"
+        app:layout_constraintRight_toLeftOf="@+id/tvatm71"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Semakin tinggi suatu tempat dari permukaan laut maka tekanan udara akan semakin rendah, apakah hal tersebut berlaku secara linier? Jelaskan jawabanmu!"
+        android:padding="15dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:gravity="center"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/tvatm72"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/border_white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Semakin tinggi suatu tempat dari permukaan laut tekanan udaranya semakin rendah, tetapi tidak berlaku secara linier. Karena tekanan udara dipengaruhi oleh kerapatan udara, semakin ke atas lapisan-lapisan udara memiliki kerapatan yang berbeda. Sehingga tekanan udara berubah sesuai kerapatan udaranya."
+        android:textSize="20sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        android:layout_marginEnd="12dp" />
+</android.support.constraint.ConstraintLayout>

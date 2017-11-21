@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.upi.cs.sukidaa.fluida.Materi.Materi"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvMateri"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:paddingTop="45dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnAtmosfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEKANAN ATMOSFER"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnbackground"
+        android:theme="@style/PrimaryFlatButton"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnHidrostatis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEKANAN HIDROSTATIS"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnbackground"
+        android:theme="@style/PrimaryFlatButton"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnPascal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUKUM PASCAL"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:theme="@style/PrimaryFlatButton"
+        android:background="@drawable/btnbackground"/>
+    <Button
+        android:id="@+id/btnArchimedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUKUM ARCHIMEDES"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:theme="@style/PrimaryFlatButton"
+        android:background="@drawable/btnbackground"/>
+    <Button
+        android:id="@+id/btnTegang"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEGANGAN PERMUKAAN"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="12dp"
+        android:theme="@style/PrimaryFlatButton"
+        android:background="@drawable/btnbackground"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</LinearLayout>

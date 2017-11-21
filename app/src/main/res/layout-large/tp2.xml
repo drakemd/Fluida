@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tekstp21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="100dp"
+        android:text="Permukaan zat yang diam menunjukan perilaku yang menarik, layaknya selembar selaput tipis (membran) yang menegang karena ditarik."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="27sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/embun"
+        android:layout_width="225dp"
+        android:layout_height="240dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/slidetp4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekstp21" />
+
+    <TextView
+        android:id="@+id/tekstp22"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="72dp"
+        android:text="Seperti embun di atas daun memiliki bentuk menyerupai bola (bagai sebuah bola kecil yang berisi air)."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/embun"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekstp21"
+        app:layout_constraintHorizontal_bias="0.517" />
+
+    <Button
+        android:id="@+id/btnvideotp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Video"
+        android:layout_marginTop="47dp"
+        app:layout_constraintTop_toBottomOf="@+id/embun"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        android:textSize="20sp"
+        android:background="@drawable/btnbackground"
+        android:textColor="#ffff"
+        android:padding="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <TextView
+        android:id="@+id/tekstp23"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="37dp"
+        android:text="Klipnya mengapung di atas permukaan air, mengapa bisa?\n Padahal kita tahu massa jenis klip lebih besar dari massa jenis air."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnvideotp1"
+        android:textSize="25sp"/>
+</android.support.constraint.ConstraintLayout>

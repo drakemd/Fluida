@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="54dp"
+        android:text="Besar tekanan hidrostatis diperoleh melalui:"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="15dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/rumushidrostatis1"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" />
+
+    <TextView
+        android:id="@+id/hidro3tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/rumushidrostatis2"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/hidro3tv1"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" />
+
+    <TextView
+        android:id="@+id/hidro3tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lapisan permukaan zat cair di dalam wadah terhubungn dengan udara maka tekanan pada permukaan zat cair adalah tekanan atmosfer, sedangkan tekanan pada dasar wadah adalah tekanan mutlak yaitu :"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffff"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rumushidrostatis3"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/hidro3tv2"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Fluida</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="materi">
+        <![CDATA[<p>Zat yang dapat mengalir biasa kita sebut <b>fluida</b>, istilah fluida digunakan untuk <b>zat cair dan gas</b>. Dalam bab ini kita akan membahas tentang fluida yang diam dalam keadaan setimbang yang disebut <b>fluida statis</b>.</p>]]>
+    </string>
+    <string name="atm21"> <![CDATA[<b>Atmosfer</b> merupakan udara yang menyelimuti dan melindungi bumi dari gempuran meteor dan radiasi matahari]]>
+    </string>
+    <string name="atm22"> <![CDATA[<p>Sebuah berita yang dimuat oleh Kompas.com, mengabarkan <b>dua orang pendaki gunung Mekongga meninggal dunia karena Hipotermia.</b> Hipotermia adalah suatu kondisi medis saat tubuh mengalami penurunan suhu sangat rendah. Identifikasilah faktor-faktor yang menyebabkan pendaki gunung mengalami Hipotermia hingga menyebabkan kematian?</p>]]>
+    </string>
+    <string name="atm23"><![CDATA[<p><b>Semakin tinggi</b> suatu tempat dari permukaan laut, kadar oksigen <b>semakin tipis</b>. Kadar oksigen normal yang diterima tubuh 95% - 100%, apabila kurang dari 80% maka tubuh memiliki kadar oksigen yang sangat rendah. Keadaan ini menyebabkan gangguan terhadap tubuh salah satunya <b>Hipotermia.]]></string>
+    <string name="atm31"><![CDATA[<p>Cara mencegah hipotermia saat mendaki gunung, selalu lengkapi pendakian dengan perlengkapan sesuai prosedur pendakian. Seperti jaket, celana <i>quickdry</i>, <i>sleeping bag</i>, jas hujan dan <b>tabung oksigen <i>portable</i>.</b></p>]]>
+    </string>
+    <string name="atm41"><![CDATA[<p>Dari video posisi pesawat pada ketinggian di atas 40.000 feet, mengapa masker oksigen keluar secara otomatis dari tempat penyimpanannya dan seluruh penumpang pesawat diharuskan memakai masker oksigen tersebut?</p>]]></string>
+    <string name="atm42"><![CDATA[<p>Berdasarkan animasi, tekanan udara luar terprediksi ketika tinggi kolom raksa pada tabung 76 cmHg dan tidak turun lagi. Itu artinya tekanan dipermukaan laut adalah 7g cmHg atau 1 atm.</p>]]></string>
+    <string name="atm61"><![CDATA[Barometer selain raksa adalah barometer air dikenal dengan <b>Termometer Goethe</b> terdiri dari wadah kaca tertutup yang setengah terisi air dan terhubung pada cabang kecil (cerat).]]></string>
+    <string name="atm62"><![CDATA[Ketika tekanan atmosfer <b>rendah</b>, level air pada cerat perlahan <b>akan naik</b> melebihi permukaan air dalam wadah kaca. Bila level air di cerat <b>turun</b>, hal ini berarti tekanan atmosfer berubah menjadi lebih <b>tinggi.</b>]]></string>
+    <string name="atm71"><![CDATA[Dari <b>percobaan Torricelli</b> bahwa tekanan udara pada permukaan laut adalah <b>1 atm atau 76 cmHg</b> dan semakin tinggi suatu tempat dari permukaan laut maka tekanan udara akan semakin rendah. Setiap <b>naik ketinggian 100 meter</b> maka tekanan udara <b>turun 1 cmHg.</b>]]></string>
+    <string name="atm72"><![CDATA[Semakin tinggi suatu tempat dari permukaan laut tekanan udaranya semakin rendah, <b>tetapi tidak berlaku secara linier.</b> Karena tekanan udara dipengaruhi oleh kerapatan udara, semakin ke atas lapisan-lapisan udara memiliki kerapatan yang berbeda. Sehingga tekanan udara berubah sesuai kerapatan udaranya.]]></string>
+    <string name="atm91"><![CDATA[Penerjun payung membuka parasutnya saat ketinggiannya sudah mencapai <b>300 meter</b> dari permukaan tanah.]]></string>
+    <string name="atm101"><![CDATA[<b>Altimeter</b> yaitu alat yang digunakan untuk menentukan ketinggian suatu tempat dengan mengkonversi dari besarnya tekanan udara. Dilengkapi juga perangkat aktivasi otomatis <b>(Automatic activation device/ADD)</b>, sehingga pada ketinggian kurang dari 300 meter, kecepatan vertikal lebih dari 38 m/s perangkat akan diaktifkan untuk membuka kanopi cadangan dan penerjun payung membuka parasutnya.]]></string>
+    <string name="atm121"><![CDATA[Lalu bagaimana dengan <b>Superman</b> yang biasa kita lihat di film, bahwa Superman mampu terbang sampai ke luar angkasa <b>tanpa</b> memakai baju khusus?]]></string>
+    <string name="atm122"><![CDATA[<p align="justify">
+                        Ini yang akan terjadi pada tubuh, apabila ke luar angkasa tanpa baju khusus seperti astronot:
+                        <ol>
+                            <li>Kita akan pingsan kurang dari 15 detik, karena tidak ada oksigen.</li>
+                            <li>Tubuh akan membeku dan menggelembung luar biasa.</li>
+                            <li>Terkena bahaya radiasi sinar kosmis dari matahari serta partikel-partikel kecil seperti debu dan batuan yang bergerak dalam kecepatan tinggi.</li>
+                        </ol>
+                        Jadi, Superman yang terbang ke Angkasa tanpa baju khusus hanya fiksi ^_^
+                    </p>]]></string>
+    <string name="hidro11"><![CDATA[Pada tekanan udara: Semakin <b>tinggi</b> suatu tempat dari permukaan laut maka tekanannya semakin <b>rendah</b>]]></string>
+    <string name="hidro12"><![CDATA[Bagaimana dengan <b>tekanan di dalam zat cair</b>? Apakah sama dengan tekanan udara dan ketinggiannya, bahwa <b>kedalaman</b> suatu zat cair pun akan mempengaruhi <b>tekanan zat cair</b> tersebut?]]></string>
+    <string name="hidro31"><![CDATA[Gaya berat fluida diperoleh dari <b><i>F=mg,</i></b> massa fluida <b><i>m=pv</i></b>, volume fluida <b><i>v=Ah</i></b>]]></string>
+    <string name="hidro32"><![CDATA[<b>Lapisan permukaan zat cair</b> di dalam wadah terhubungn dengan udara maka tekanan pada permukaan zat cair adalah <b>tekanan atmosfer</b>, sedangkan tekanan pada dasar wadah adalah <b>tekanan mutlak</b> yaitu :]]></string>
+    <string name="hidro41"><![CDATA[Karena air dan minyak memiliki massa jenis yang berbeda (p<sub>air</sub>=1000kg/m<sup>3</sup> sedangkan p<sub>minyak</sub>=800kg/m<sup>3</sup>), jadi pada kedalaman yang sama ternyata air lebih tinggi dari pada minyak, ini artinya tekanan air lebih besar dari pada tekanan minyak. Dapat disimpulkan bahwa massa jenis zat cair mempengaruhi tekanan zait cair tersebut.]]></string>
+    <string name="hidro42"><![CDATA[Dari seluruh penjelasan, rancanglah sebuah prosedur eksperimen yang berbeda. Untuk membuktikan pada satu jenis zat cair bahwa dengan kedalaman yang sama memiliki tekanan yang sama. Presentasikan rancanganmu dalam bentuk tulisan!]]></string>
+    <string name="hidro51"><![CDATA[Tekanan pada zat cair dipengaruhi oleh kedalaman kolom zat cair dan <b>tidak dipengaruhi oleh jumlah atau bentuk kolom zat cair.</b> Artinya tekanan di titik A, B, C dan D pada zat cair yang sama tekanannya sama.]]></string>
+    <string name="hidro61"><![CDATA[Telah dijelaskan, bahwa semakin tinggi suatu tempat tekanan udaranyanya semakin rendah dan kadar oksigennya semakin tipis yang menyebabkan seseorang akan sesak napas. Itu sebabnya pendaki gunung membawa <b>tabung oksigen <i>portable</i></b>. Bagaimana dengan para penyelam, mengapa mereka membawa alat selam salah satunya tabung oksigen gendong saat menyelam?]]></string>
+    <string name="hidro62"><![CDATA[Kedalaman laut atau danau sangat berpengaruh pada tubuh kita, karena <b>semakin dalam</b> maka <b>semakin besar tekanannya</b>. Sehingga apabila kita akan menyelam diharuskan membawa perlengkapan selam dengan lengkap, salah satunya tabung oksigen agar penyelam dapat tetap bernapas dengan baik saat di dalam air. Pada maksimal kedalaman 40 meter.]]></string>
+    <string name="hidro81"><![CDATA[Menurut <u><b>Dr. Jordan Tishler</b></u> dari <u><b>Department of Veterans Affairs Amerika Serikat</b></u>, menjelaskan manusia bisa menahan napas tanpa kesulitan hanya sekitar <b>30 hingga 60 detik pada kedalaman 10 meter di bawah permukaan air</b>.]]></string>
+    <string name="hidro82"><![CDATA[Kita dapat mengetahui kedalaman laut menggunakan <b>kapal selam</b> yang telah di desain dengan bahan sedemikian rupa agar kuat terhadap tekanan air laut saat menyelam. Meskipun demikian setiap kapal selam tetap memiliki batas maksimum kedalamannya, apabila melebihi batas kapal selam akan hancur karena tekanan hidrostatisnya terlalu besar.]]></string>
+    <string name="hidro91"><![CDATA[<h3>Ingat!</h3> Semakin dalam suatu tempat dari permukaan zat cair, semakin besar tekanan hidrostatisnya.]]></string>
+    <string name="hidro92"><![CDATA[Berdasarkan deskripsi dan gambar di atas, bahwa <b>semakin dalam dari permukaan air laut/danau maka tekanan hidrostatisnya semakin besar.</b>]]></string>
+    <string name="hidro101"><![CDATA[Konstruksi bendungan <b>semakin kebawah semakin tebal</b>, tujuannya untuk menghindari jebolnya bagian bawah karena tekanan yang besar.]]></string>
+    <string name="hidro102"><![CDATA[<b>Selain kedalaman, tekanan hidrostatis juga bergantung pada massa jenis zat cairnya.</b> Massa jenis air laut lebih besar dari pada massa jenis air danau (<i>p<sub>(air laut)</sub></i> yaitu <i>1028kg/m<sup>3</sup></i> > <i>p<sub>air</sub></i> yaitu <i>1000kg/m<sup>3</sup>)</i>. Sehingga konstruksi bendungan air laut juga harus lebih besar dari konstruksi bendungan air danau.]]></string>
+    <string name="tp31"><![CDATA[Di dalam air <b>(lihat A)</b>, setiap molekul Tarik menarik dengan molekul disekitarnya sehingga menghasilkan gaya yang seimbang]]>
+    </string>
+    <string name="tp32"><![CDATA[Sebaliknya, molekul cairan yang terletak dipermukaan <b>(lihat B)</b> hanya ditarik oleh molekul cairan yang berada di samping dan bawahnya. Karena pada bagian atasnya terdapat udara. Akibatnya pada permukaan cairan terdapat gaya total yang arahnya kebawah.]]>
+    </string>
+    <string name="tp42"><![CDATA[Kalau begitu, definisi <b>tegangan permukaan</b> adalah <b>kecenderungan zat cair untuk menegang hingga permukaannya seperti ditutupi suatu lapisan elastis</b>. Apakah definisi tegangan permukaan tersebut sudah benar? Jelaskan jawabanmu! ]]>
+    </string>
+    <string name="tp62"><![CDATA[Tugasmu, rancanglah kendaraan lain yang dapat berjalan di darat dan <b>di atas permukaan air</b> seperti proyek Pipe Dream!]]>
+    </string>
+    <string name="tp63">
+        <![CDATA[Selain terciptanya teknologi baru, konsep tegangan permukaan juga diaplikasikan dalam kehidupan sehari-hari, salah satunya pada saat mencuci pakaian menggunakan deterjen. <b>Kenapa harus pakai deterjen?</>]]>
+    </string>
+    <string name="tp91">
+        <![CDATA[Seluruh penjelasan tadi merupakan konsep tegangan permukaan secara <b>kualitatif</b>, dan sekarang kita tinjau konsep tegangan permukaan secara <b>kuantitaif</b>.]]>
+    </string>
+    <string name="tp93">
+        <![CDATA[Apabila kawat dimasukan ke dalam air sabun maka akan terbentuk lapisan air sabun seperti pada gambar di atas. Karena kawat lurus bisa digerakan dan massanya tidak terlalu besar, maka lapisan air sabun akan memberikan gaya tegangan permukaan pada kawat lurus sehingga kawat lurus bergerak ke atas. Untuk mempertahankan kawat lurus tidak bergerak diperlukan gaya ke bawah total <i>F=w+T</i>. Dalam kesetimbangan, <i>F</i> = gaya tegangan permukaan yang dikerjakan oleh lapisan air sabun pada kawat lurus.]]>
+    </string>
+    <string name="tp101">
+        <![CDATA[Misalnya panjang kawat lurus adalah <i>l</i> dan lapisan air sabun memiliki dua sisi permukaan, maka gaya tegangan permukaan yang ditimbulkan oleh lapisan air sabun bekerja sepanjang <i>2l</i>. Tegangan pada permukaan air sabun merupakan perbandingan antara gaya tegangan permukaan (F) dengan panjang permukaan di mana gaya bekerja (d). <b>Secara matematis</b> di tulis:]]>
+    </string>
+    <string name="tp113">
+        <![CDATA[
+Secara umum jika terjadi <b>kenaikan suhu</b>, nilai <b>tegangan permukaan</b> mengalami <b>penurunan</b> seperti yang telihat pada tabel Nilai Tegangan Permukaan. Disebabkan karena <b><i>suhu meningkat, molekul cairan bergerak cepat sehingga pengaruh interaksi antar molekul cairan berkurang</b></i>. Akibatnya nilai tegangan permukaan mengalami penurunan.
+        ]]>
+    </string>
+    <string name="tp121">
+        <![CDATA[
+Panjang kawat L=10 cm dan gaya tarik minimum yang diperlukan kawat berada dalam keseimbangan adalah 4 x 10<sup>-3</sup> N. Tegangan permukaanfluida yang berada dalam kawat adalah...
+        ]]>
+    </string>
+    <string name="tp12a"><![CDATA[a. 40 x 10<sup>-2</sup> N/m]]></string>
+    <string name="tp12b"><![CDATA[b. 4 x 10<sup>-3</sup> N/m]]></string>
+    <string name="tp12c"><![CDATA[c. 4 x 10<sup>-2</sup> N/m]]></string>
+    <string name="tp12d"><![CDATA[d. 4 x 10<sup>-4</sup> N/m]]></string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_dospem">Dospem</string>
+    <string name="title_activity_referensi">Referensi</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="pascal11"><![CDATA[<b>Tekanan yang diberikan pada air melalui piston akan diteruskan ke segala arah dengan sama besar. Percobaan ini pertama kalinya ditemukan oleh <b>Blaise Pascal (1623-1662)</b>, sehingga disebut <b>Hukum Pascal.</b>]]></string>
+    <string name="pascal31"><![CDATA[Berdasarkan deskripsi di halaman sebelumnya, maka Hukum Pascal adalah <u><b><i>"Tekanan yang diberikan fluida dalam ruang yang tertutup akan diteruskan kesegala arah dengan sama besar".</i></b></u> Apakah isi dari Hukum Pascal tersebut sudah benar? Jelaskan jawabanmu!]]></string>
+    <string name="pascal32"><![CDATA[Salah satu aplikasi <b>Hukum Pascal</b> pada prinsip kerja <b>dongkrak hidrolik</b> atau penggerak hidrolik, keuntungannya adalah dengan memberikan gaya yang kecil kita sanggup menggerakan benda yang massanya sangat besar. Bagaimana penjelasannya?]]></string>
+    <string name="pascal41"><![CDATA[Dari animasi dan penjelasan, apabila penghisap <b>diganti</b> oleh penghisap silinder dengan luas penampang berbentuk lingkaran. Bagaimana persamaan yang akan diperoleh?]]></string>
+    <string name="soal3"><![CDATA[Kapal selam berada pada kedalaman 350 meter dari permukaan air laut. Jika massa jenis air laut 1000 <i>kg/m</i><sup>3</sup>, percepatan gravitasi bumi 10 <i>m/s</i><sup>2</sup> dan tekanan permukaan air laut 1,01 x 10<sup>5</sup> <i>Pa</i>. Berapa tekanan mutlak kapal tersebut?]]></string>
+    <string name="soal3a"><![CDATA[a. 36,01 x 10<sup>5</sup> Pa]]></string>
+    <string name="soal3b"><![CDATA[b. 3,601 x 10<sup>5</sup> Pa]]></string>
+    <string name="soal3c"><![CDATA[c. 360,1 x 10<sup>5</sup> Pa]]></string>
+    <string name="soal3d"><![CDATA[d. 3601 x 10<sup>5</sup> Pa]]></string>
+    <string name="soal4"><![CDATA[Seekor ikan menyelam di air laut yang massa jenisnya 1,013 g/cm<sup>3</sup>. Ikan mengalami tekanan hidrostatis yang sama dengan tekanan atmosfer. Tentukan kedalaman ikan tersebut, jika percepatan gravitasinya g=10 m/s<sup>2</sup>!]]></string>
+    <string name="soal5"><![CDATA[Sebuah alat hidrolik memiliki perbandingan gaya yang diberikan piston kecil dan gaya yang dihasilkan piston besar adalah 20 N : 100 N. Jika penampang piston kecil sebesar 5 cm<sup>2</sup>, hitunglah luas penampang piston besar!]]></string>
+    <string name="soal5a"><![CDATA[a. 10 cm<sup>2</sup>]]></string>
+    <string name="soal5b"><![CDATA[b. 100 cm<sup>2</sup>]]></string>
+    <string name="soal5c"><![CDATA[c. 50 cm<sup>2</sup>]]></string>
+    <string name="soal5d"><![CDATA[d. 25 cm<sup>2</sup>]]></string>
+    <string name="soal6"><![CDATA[Jika ada sebuah mobil yang akan diangkat dengan alat pengangkat hidrolik, dengan piston kecil 12 cm<sup>2</sup> dan piston besar 600 cm<sup>2</sup>, untuk menekan piston kecil diberikan gaya 600 N, berapa berat mobil yang diangkat?]]></string>
+    <string name="soal7a"><![CDATA[a. 11,05 x 10<sup>-4</sup> Pa]]></string>
+    <string name="soal7b"><![CDATA[b. 38,18 x 10<sup>-4</sup> Pa]]></string>
+    <string name="soal7c"><![CDATA[c. 23,02 x 10<sup>-4</sup> Pa]]></string>
+    <string name="soal7d"><![CDATA[d. 13,05 x 10<sup>-4</sup> Pa]]></string>
+    <string name="soal8"><![CDATA[Air yang massa jenisnya 1 gr/cm<sup>3</sup> dapat naik pada pipa kapiler 10 cm. jika diameter tabung 0,8 mm dan sudut kontak air dengan tabung 60 derajat celcius. Berapa besar tegangan permukaannya?]]></string>
+    <string name="soal10"><![CDATA[Sebuah balok dengan sisi 0,1 m digantung vertikal dengan tali yang ringan (massa diabaikan), tentukan gaya apung yang dialami balok tersebut, jika (a) dicelupkan setengah bagian ke dalam air ( <i>p<sub>air</sub></i> = 1000 <i>kg/m<sup>3</sup></i> ) dan (b) dicelupkan seluruhnya ke dalam minyak ( <i>p<sub>minyak</sub></i> = 800 <i>kg/m<sup>3</sup></i> )]]></string>
+    <string name="ha21">
+    <![CDATA[Ketika kita mencelupkan sebuah benda ke dalam zat cair, maka akan terjadi tiga kemungkinan pada benda tersebut yaitu <b>tenggelam, melayang dan mengapung</b>.]]>
+    </string>
+    <string name="ha24">
+        <![CDATA[Dari ilustrasi di atas, <b>volume batu yang tenggelam</b> sama dengan <b>volume air yang yang dipindahkan</b> akibat batu tersebut. Bagaimana dengan <b><i>berat batu ketika di udara</i></b> dengan <b><i>berat batu ketika di dalam zat cair</i></b>? Apakah beratnya sama juga!]]>
+    </string>
+    <string name="ha41">
+        <![CDATA[Dari deskripsi di atas, maka <b><i>"gaya apung adalah gaya angkat ke atas yang bertindak pada benda (baik tercelup sebagian atau seluruhnya dalam fluida) ketika mendorong fluida".</i></b> Apakah pengertian gaya apung tersebut benar? Jelaskan pendapatmu!]]>
+    </string>
+    <string name="ha42">
+        <![CDATA[Jika <b>gaya apung</b> adalah <b>gaya angkat ke atas yang bertindak pada benda</b> (baik tercelup sebagian atau seluruhnya dalam fluida) ketika mendorong fluida, lalu mengapa batu pada ilustrasi di atas tenggelam? Jelaska asumsimu!]]>
+    </string>
+    <string name="ha52">
+        <![CDATA[
+Munculnya <b>gaya apung</b> adalah <b>konsekuensi dari tekanan zat cair yang menigkat dan bertambahnya kedalaman</b>. Semakin dalam fluida maka semakin besar tekanannya. Seperti ketika kita menekan bola pantai yang mengapung di atas kolam, kita akan merasakan gaya yang diberikan air bertindak ke atas. Sehingga berlaku:
+        ]]>
+    </string>
+    <string name="ha81">
+        <![CDATA[Berdasarkan data hasil eksperimen yang telah kamu buat, tentukan gaya ke atas <b>(gaya apung)</b> dan <b>berat volume air yang dipindahkan</b> pada masing-masing tahapan! Buatlah tabel hasil analisismu dengan:]]>
+    </string>
+    <string name="ha91">
+        <![CDATA[Ketika suatu benda tercelup air sebagian atau seluruhnya di dalam air, <b>gaya ke atas benda sama dengan berat air yang dipindahkan benda</b>. Hal tersebut kita ketahui sebagai <b>Hukum Archimedes</b> yang dikemukan oleh Archimedes seorang ilmuwan Yunani Kuno]]>
+    </string>
+    <string name="ha92">
+       <![CDATA[Dari deskripsi di atas maka, <b><i>"Hukum Archimedes adalah gaya apung yang bekerja pada suatu benda yang dicelupkan sebagian atau seluruhnya ke dalam suatu fluida sama dengan berat fluida yang dipindahkan oleh benda tersebut".</i></b> Apakah bunyi Hukum Archimedes tersebut sudah benar? Jelaskan jawabannmu!]]>
+    </string>
+    <string name="tt33">
+        <![CDATA[<b><b>Syarat mengapung sama dengan syarat melayang</b> yaitu berat benda sama dengan gaya apung <b>( <i>w = F<sub>A</sub></i> )</b>, <b>perbedaannya</b> terletak pada volume benda yang tercelup dalam fluida <b>( <i>V<sub>bf</sub></i> )</b>. Pada peristiwa mengapung, hanya sebagian benda yang tercelup dalam fluida sehingga <b>( <i>V<sub>bf</sub></i> < <i>V<sub>b</sub></i> )</b> dan pada peristiwa melayang seluruh benda tercelup dalam fluida sehingga <b>( <i>V<sub>bf</sub></i> = <i>V<sub>b</sub></i> ).</b> Sedangkan syarat tenggelam, berat benda lebih besar dari pada gaya apung <b>( <i>w > F<sub>A</sub></i> )</b> dan karena seluruh benda tercelup dalam fluida maka <b>( <i>V<sub>bf</sub></i> = <i>V<sub>b</sub></i> ).</b>]]>
+    </string>
+    <string name="tt41">
+        <![CDATA[Benda dikatakan <b>mengapung</b> dalam zat cair, jika <b>tidak seluruh</b> bagian benda tercelup dalam zat cair]]>
+    </string>
+    <string name="tt51">
+        <![CDATA[Benda dikatakan <b>melayang</b> dalam fluida apabila benda tersebut <b>tercelup seluruhnya</b> dalam fluida dan <b>diam</b> (tidak bergerak sampai ke dasar fluida atau muncul ke permukaan).]]>
+    </string>
+    <string name="tt61">
+        <![CDATA[
+            Benda dikatakan <b>tenggelam</b> dalam fluida apabila benda tersebut <b>tercelup seluruhnya</b> dalam fluida dan <b>diam</b> (tidak bergerak sampai ke dasar fluida atau muncul ke permukaan).
+        ]]>
+    </string>
+    <string name="aa21">
+        <![CDATA[<b>Hidrometer</b> adalah <b>alat yang digunakan untuk mengukur massa jenis zat cair</b>. Massa jenis yang terukur adalah massa jenis relatif (massa jenis zat dibandingkan dengan massa jenis air <b>1000 km/m3</b>).
+        ]]>
+    </string>
+    <string name="aa24">
+        <![CDATA[
+Selain Hidrometer alat untuk mengukur massa jenis adalah <b>Aerometer Tralles</b>. Berdiskusilah bersama temanmu, bagaimana prinsip kerja dan kegunaannya!
+        ]]>
+    </string>
+    <string name="aa51">
+        <![CDATA[
+<b>Jembatan ponton</b> adalah <i><b>jembatan mengambang yang disandarkan ke semacam ponton untuk menyangga landasan jembatan dan beban dinamis di atasnya</b></i>. Pada umumnya jembatan ponton merupakan kumpulan drum-drum kosong yang berjajar sehingga menyerupai jembatan. Drum-drum kosong harus tertutup rapat sehingga tidak ada air yang masuk kedalamnya. Apabila air pasang, maka jembatan naik dan ketika air surut maka jembatan turun.
+        ]]>
+    </string>
+    <string name="aa62">
+    <![CDATA[
+Berdasarkan <b>tenaga penggeraknya</b> kapal selam ada tiga jenis yaitu kapal selam diesel, kapal selam nuklir dan kapal selam tanpa mesin. Sedangkan berdasarkan fungsinya terbagi menjadi kapal selam <b>militer</b> yang digunakan untuk berperang atau patrol suatu negara dan kapal selam non militer yang digunakan seperti pariwisata, menangkap ikan dan lain-lain.
+    ]]>
+    </string>
+    <string name="title_activity_menu_archimedes">MenuArchimedes</string>
+
+</resources>

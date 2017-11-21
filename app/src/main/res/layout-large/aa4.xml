@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/teksaa41"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="31dp"
+        android:text="Pada saat kita meletakkan besi di atas permukaan air, besi akan tenggelam ke dasar wadah. Tetapi kapal laut dengan massa yang sangat besar tidak tenggelam ke dasar laut."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/aa4image1"
+        android:layout_width="450dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/aa4image1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksaa41" />
+
+    <TextView
+        android:id="@+id/teksaa42"
+        android:layout_width="510dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Hal tersebut karena badan kapal dibuat berongga, yang bertujuan agar volume air laut yang dipindahkan oleh badan kapal menjadi lebih besar. Akibatnya besar gaya apung sebanding  dengan volume air laut yang dipindahkan, sehingga gaya apung menjadi sangat besar. Gaya apung tersebut yang mampu melawan berat kapal dan kapal laut tetap mengapung di permukaan laut."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa4image1" />
+
+    <ImageView
+        android:id="@+id/aa4image2"
+        android:layout_width="495dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/backtable"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksaa42" />
+
+    <TextView
+        android:id="@+id/teksaa43"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Pada 15 April 2014, Kapal Sewol tenggelam saat mengangkut 474 orang yang berangkat dari pelabuhan Incheon (Seoul barat), untuk perjalan empat hari ke pulau wisata Jeju. Kapal Sewol adalah kapal fery terbaik milik korea selatan. Prediksikan menurut pendapatmu, penyebab Kapal Sewol tenggelam!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aa4image2"
+        app:layout_constraintLeft_toLeftOf="@+id/aa4image2"
+        app:layout_constraintRight_toRightOf="@+id/aa4image2"
+        app:layout_constraintTop_toTopOf="@+id/aa4image2" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

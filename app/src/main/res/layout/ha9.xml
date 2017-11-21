@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/teksha91"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Ketika suatu benda tercelup air sebagian atau seluruhnya di dalam air, gaya ke atas benda sama dengan berat air yang dipindahkan benda. Hal tersebut kita ketahui sebagai Hukum Archimedes yang dikemukan oleh Archimedes seorang ilmuwan Yunani Kuno"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backteksha92"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/backtable"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksha91" />
+
+    <TextView
+        android:id="@+id/teksha92"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Dari deskripsi di atas maka, “Hukum Archimedes adalah gaya apung yang bekerja pada suatu benda yang dicelupkan sebagian atau seluruhnya ke dalam suatu fluida sama dengan berat fluida yang dipindahkan oleh benda tersebut”. Apakah bunyi Hukum Archimedes tersebut sudah benar? Jelaskan jawabannmu!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/backteksha92"
+        app:layout_constraintLeft_toLeftOf="@+id/backteksha92"
+        app:layout_constraintRight_toRightOf="@+id/backteksha92"
+        app:layout_constraintTop_toTopOf="@+id/backteksha92" />
+
+    <ImageView
+        android:id="@+id/ha9image1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backteksha92"
+        app:srcCompat="@drawable/ha9image1" />
+</android.support.constraint.ConstraintLayout>

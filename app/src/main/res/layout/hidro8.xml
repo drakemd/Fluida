@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dari video suku Wakatobi, dia mampu menyelam ke dasar laut sampai maksimal 5 menit pada kedalaman 10 meter, karena suku Wakatobi telah terlatih menahan napas di dalam air. Menurut pendapatmu, secara umum berapa lama seseorang mampu bertahan di dalam air tanpa menggunakan alat bantu selam?"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="11sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffff"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/hidro8tv1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Menurut Dr. Jordan Tishler dari Department of Veterans Affairs Amerika Serikat, menjelaskan manusia bisa menahan napas tanpa kesulitan hanya sekitar 30 hingga 60 detik pada kedalaman 10 meter di bawah permukaan air."
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/border"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="310dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Dari deskripsi di atas telah disebutkan ada batas kedalamaan maksimal saat menyelam walaupun penyelam menggunakan kelengkapan selam, lalu bagaimana cara penyelam mengetahui kedalaman laut yang lebih dalam?"
+        android:layout_marginTop="8dp"
+        android:textSize="11sp"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffff"
+        app:layout_constraintTop_toBottomOf="@+id/hidro8tv1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/hidro8tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kita dapat mengetahui kedalaman laut menggunakan kapal selam yang telah di desain dengan bahan sedemikian rupa agar kuat terhadap tekanan air laut saat menyelam. Meskipun demikian setiap kapal selam tetap memiliki batas maksimum kedalamannya, apabila melebihi batas kapal selam akan hancur karena tekanan hidrostatisnya terlalu besar."
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat dan perhatikan video di halaman selanjutnya"
+        android:layout_marginTop="9dp"
+        app:layout_constraintTop_toBottomOf="@+id/hidro8tv2"
+        android:layout_marginLeft="16dp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+</android.support.constraint.ConstraintLayout>

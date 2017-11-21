@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/backtekstt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/backteks"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tekstt31"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Berdasarkan data hasil eksperimen, tentukanlah besar gaya apung dan buatlah tabel hasil analisisnya!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/backtekstt31"
+        app:layout_constraintLeft_toLeftOf="@+id/backtekstt31"
+        app:layout_constraintRight_toRightOf="@+id/backtekstt31"
+        app:layout_constraintTop_toTopOf="@+id/backtekstt31" />
+
+    <ImageView
+        android:id="@+id/tt3image1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/tt3image1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backtekstt31" />
+
+    <ImageView
+        android:id="@+id/backtekstt32"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/backtable"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tt3image1" />
+
+    <TextView
+        android:id="@+id/tekstt32"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Dari tabel hasil analisis pengukuran, buatlah kesimpulan yang menggambarkan hasil yang di tunjukan oleh tabel analisis pengukuran tersebut!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/backtekstt32"
+        app:layout_constraintLeft_toLeftOf="@+id/backtekstt32"
+        app:layout_constraintRight_toRightOf="@+id/backtekstt32"
+        app:layout_constraintTop_toTopOf="@+id/backtekstt32" />
+
+    <TextView
+        android:id="@+id/tekstt33"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backtekstt32" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

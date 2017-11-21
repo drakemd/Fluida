@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tekstp71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Perhatikan Video berikut"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btnbackground"
+        android:textColor="#ffff"
+        android:layout_marginTop="16dp"
+        android:text="Lihatlah Video ini"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekstp71" />
+
+    <ImageView
+        android:id="@+id/backtulisan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/backteks"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVideo" />
+
+    <TextView
+        android:id="@+id/tekstp72"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Dari video, mengapa saat setelah ditambahkan sabun cair kedua ujung benang terpisah?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="@+id/backtulisan"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/backtulisan"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/backtulisan"
+        app:layout_constraintBottom_toBottomOf="@+id/backtulisan"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tekstp73"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Tegangan permukaan yang besar pada air murni dapat menjadikan air sulit menembus serat-serat kain yang kecil. Sabun dan deterjen dapat melemahkan tegangan permukaan air, akibatnya partikel-partikel yang mengikat kedua ujung benang pun ikut melemah. Sehingga kedua ujung benang terpisah setelah dimasukan sabun cair. Peristiwa tersebut berguna saat kita mencuci pakaian."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backtulisan" />
+</android.support.constraint.ConstraintLayout>

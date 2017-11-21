@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tvSoal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jika disuaru puncak gunung tekanan udaranya adalah 45 cm Hg, berapa ketinggian gunung tersebut dari permukaan air laut?"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgNomer"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="#ffff"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgNomer"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nomor5" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="a. 10,13 m"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvSoal"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        android:background="@drawable/btnsoal"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="b. 11,5 m"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/btnsoal"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="c. 10 m"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonB"
+        android:layout_marginLeft="160dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/btnsoal"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="d. 9,8 m"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonC"
+        android:layout_marginLeft="220dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/btnsoal"
+        android:textAllCaps="false"/>
+</android.support.constraint.ConstraintLayout>

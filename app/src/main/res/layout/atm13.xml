@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="33dp"
+        android:text="Contoh Soal"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Disuatu tempat tekanan udaranya diukur menggunakan barometer raksa. Jika angka yang ditunjukkan pada alat tersebut 72 cm, hitunglah ketinggian tempat tersebut dari permukaan laut!"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffff"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="a. 100m"
+        android:textAllCaps="false"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="12sp"
+        android:background="@drawable/btnsoal"
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="b. 400m"
+        android:textAllCaps="false"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintLeft_toRightOf="@+id/buttonA"
+        android:layout_marginLeft="10dp"
+        android:textSize="12sp"
+        android:background="@drawable/btnsoal"/>
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="c. 10m"
+        android:textAllCaps="false"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        app:layout_constraintLeft_toRightOf="@+id/buttonB"
+        android:layout_marginLeft="10dp"
+        android:textSize="12sp"
+        android:background="@drawable/btnsoal"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="d. 8m"
+        android:textAllCaps="false"
+        android:layout_marginTop="26dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        android:textSize="12sp"
+        android:background="@drawable/btnsoal"
+        app:layout_constraintLeft_toRightOf="@+id/buttonC"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/tryagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA"
+        android:layout_marginLeft="20dp"
+        android:theme="@style/PrimaryFlatButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/btnbackground" />
+
+    <Button
+        android:id="@+id/solution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solution"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:theme="@style/PrimaryFlatButton"
+        android:background="@drawable/btnbackground"
+        android:layout_marginRight="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="31dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonD"/>
+
+    <ImageView
+        android:id="@+id/atmsol"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solution"
+        app:srcCompat="@drawable/atmsolusi"
+        app:layout_constraintHorizontal_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

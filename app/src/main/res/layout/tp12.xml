@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/backsoal1"
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/backtable"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/soaltp12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Sebuah balok dengan sisi 0,1 m digantung vertikal dengan tali yang ringan (massa diabaikan), tentukan gaya apung yang dialami balok tersebut, jika (a) dicelupkan setengah bagian ke dalam air (ρ_air=1000 〖kg/m〗^3) dan (b) dicelupkan seluruhnya ke dalam minyak (ρ_minyak=800 〖kg/m〗^3)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/backsoal1"
+            app:layout_constraintLeft_toLeftOf="@+id/backsoal1"
+            app:layout_constraintRight_toRightOf="@+id/backsoal1"
+            app:layout_constraintTop_toTopOf="@+id/backsoal1" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btnsoal"
+            android:text="a. 9,8 N dan 49 N"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backsoal1" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/btnsoal"
+            android:text="b. 98 N dan 7,85 N"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btnsoal"
+            android:text="c. 49 N dan 7,85 N"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/backsoal1"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/btnsoal"
+            android:text="d. 4,9 N dan 7,85 N"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/backsoal1"
+            android:layout_marginRight="16dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <Button
+            android:id="@+id/solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/btnbackground"
+            android:text="Solution"
+            android:textColor="#ffff"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:visibility="invisible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonD" />
+
+        <Button
+            android:id="@+id/tryagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btnbackground"
+            android:text="Try Again"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:textColor="#ffff"
+            android:visibility="invisible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+        <ImageView
+            android:id="@+id/solusi1"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/tpsoal"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/solution" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="255dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/pascalrem"
+        android:layout_marginTop="53dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView46"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.199" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="75dp"
+        android:text="APLIKASI HUKUM PASCAL"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rem Hidrolik"
+        android:textSize="20sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView19"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView19" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/pascaldongkrak"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        android:layout_marginTop="223dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dongkrak Hidrolik"
+        android:textSize="20sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView20"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView20" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/mesinhidrolik"
+        android:layout_marginTop="104dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView50"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.196" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesin Hidrolik Pengangkat Mobil"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView21"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView21" />
+</android.support.constraint.ConstraintLayout>

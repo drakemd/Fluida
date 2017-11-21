@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="Jembatan Ponton"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/aa5image1"
+        android:layout_width="350dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/aa5image1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/teksaa51"
+        android:layout_width="510dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Jembatan ponton adalah jembatan mengambang yang disandarkan ke semacam ponton untuk menyangga landasan jembatan dan beban dinamis di atasnya. Pada umumnya jembatan ponton merupakan kumpulan drum-drum kosong yang berjajar sehingga menyerupai jembatan. Drum-drum kosong harus tertutup rapat sehingga tidak ada air yang masuk kedalamnya. Apabila air pasang, maka jembatan naik dan ketika air surut maka jembatan turun."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa5image1" />
+
+    <ImageView
+        android:id="@+id/aa5image2"
+        android:layout_width="450dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/backtable"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksaa51" />
+
+    <TextView
+        android:id="@+id/teksaa52"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Lho,,, kenapa harus menggunakan drum kosong yaa?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/aa5image2"
+        app:layout_constraintLeft_toLeftOf="@+id/aa5image2"
+        app:layout_constraintRight_toRightOf="@+id/aa5image2"
+        app:layout_constraintTop_toTopOf="@+id/aa5image2" />
+
+
+</android.support.constraint.ConstraintLayout>

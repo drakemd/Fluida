@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tekstp81"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="90dp"
+        android:text="Saat sedang berjalan, kamu melihat iklan seperti di bawah ini."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tp8image1"
+        android:layout_width="450dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/tp8image1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekstp81" />
+
+    <ImageView
+        android:id="@+id/backtp8"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backteks"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/tp8image1"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/tekstp82"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Apakah kamu berminatkan untuk membelinya? Jelaskan alasanmu!"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backtp8"
+        app:layout_constraintLeft_toLeftOf="@+id/backtp8"
+        app:layout_constraintRight_toRightOf="@+id/backtp8"
+        app:layout_constraintTop_toTopOf="@+id/backtp8" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="450dp"
+        android:layout_height="225dp"
+        android:background="@drawable/tp8image2"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/backtp8"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="12dp" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

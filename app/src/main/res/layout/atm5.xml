@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="28dp"
+        android:width="250dp"
+        android:background="@drawable/border"
+        android:padding="8dp"
+        android:text="Berdasarkan animasi, tekanan udara luar terprediksi ketika tinggi kolom raksa pada tabung 76 cmHg dan tidak turun lagi. Itu artinya tekanan dipermukaan laut adalah 76 cmHg atau 1 atm."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apabila percobaan Torricelli dilakukan di suatu gedung lantai 30 yang ketinggiannya 120 meter dari permukaan laut, apakah hasil percobaanya akan sama?"
+        android:textSize="14sp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="10dp"
+        android:textColor="#ffff"
+        android:drawableRight="@drawable/hmmmm"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nah, Jika raksa kita ganti dengan air, apakah akan menunjukan fenomena yang sama seperti yang ditunjukan oleh raksa? Diskusikan bersama temanmu!"
+        android:width="250dp"
+        android:textSize="14sp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:textAlignment="center"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.upi.cs.sukidaa.fluida.Materi.Archimedes.MenuArchimedes"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnArchimedes1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/btnbackground"
+        android:text="HUKUM ARCHIMEDES"
+        android:textColor="#ffff"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btnArchimedes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERISTIWA MENGAPUNG, TENGGELAM DAN MELAYANG"
+        android:textColor="#ffff"
+        android:layout_margin="12dp"
+        android:textSize="21sp"
+        android:background="@drawable/btnbackground"/>
+    <Button
+        android:id="@+id/btnArchimedes3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI HUKUM ARCHIMEDES"
+        android:layout_margin="12dp"
+        android:textSize="21sp"
+        android:textColor="#ffff"
+        android:background="@drawable/btnbackground"/>
+    <View android:layout_height="fill_parent"
+        android:layout_width="fill_parent"></View>
+</LinearLayout>

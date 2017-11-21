@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="Tegangan Permukaan"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.045" />
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.053">
+
+        <ImageView
+            android:id="@+id/slide1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/slidetp1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/slidetp1" />
+
+        <ImageView
+            android:id="@+id/slide2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/slidetp2"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/slidetp2" />
+
+        <ImageView
+            android:id="@+id/slide3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/slidetp3"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/slidetp3" />
+
+        <ImageView
+            android:id="@+id/slide4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/slidetp4"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/slidetp4" />
+    </ViewFlipper>
+    <TextView
+        android:id="@+id/tvPertanyaan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="Apa yang ingin kamu tanyakan berdasarkan gambar di atas?"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/transparent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.453"
+        android:background="@drawable/nextselect"/>
+
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/transparent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.453"
+        android:background="@drawable/prevselect"/>
+</android.support.constraint.ConstraintLayout>

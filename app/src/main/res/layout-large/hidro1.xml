@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TEKANAN HIDROSTATIS"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.045"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvPertanyaan"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:text="Apa yang ingin kamu tanyakan berdasarkan video di atas?"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        android:textSize="24sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/hidro1vv2"
+        app:layout_constraintHorizontal_bias="0.496" />
+
+    <edu.upi.cs.sukidaa.fluida.CustomVideoView
+        android:id="@+id/hidro1vv1"
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.497" />
+
+    <edu.upi.cs.sukidaa.fluida.CustomVideoView
+        android:id="@+id/hidro1vv2"
+        android:layout_width="400dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/hidro1vv1"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.497" />
+
+    <ImageView
+        android:id="@+id/play1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hidro1vv1"
+        app:layout_constraintLeft_toLeftOf="@+id/hidro1vv1"
+        app:layout_constraintRight_toRightOf="@+id/hidro1vv1"
+        app:layout_constraintTop_toTopOf="@+id/hidro1vv1"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/play2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hidro1vv2"
+        app:layout_constraintLeft_toLeftOf="@+id/hidro1vv2"
+        app:layout_constraintRight_toRightOf="@+id/hidro1vv2"
+        app:layout_constraintTop_toTopOf="@+id/hidro1vv2"
+        app:srcCompat="@drawable/play" />
+
+</android.support.constraint.ConstraintLayout>

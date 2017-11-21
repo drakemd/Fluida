@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center_horizontal"
+        android:text="Kapal Laut"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/teksaa31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Perhatikan gambarkan dibawah ini!"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_marginStart="12dp" />
+
+    <ImageView
+        android:id="@+id/aa3image1"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksaa31"
+        app:srcCompat="@drawable/aa3image1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageView
+        android:id="@+id/aa3image2"
+        android:layout_width="510dp"
+        android:layout_height="225dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/backtable"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa3image1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/teksaa32"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="27dp"
+        android:text="Mengapa ketika kita memasukan lempengan logam kedalam zat cair, logam tenggelam. Sedangkan apabila kita ubah bentuk logam tersebut menjadi bentuk kubus, logam mengapung (lihat gambar diatas). Deskripsikan jawabanmu secara ilmiah!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="@+id/aa3image2"
+        app:layout_constraintLeft_toLeftOf="@+id/aa3image2"
+        app:layout_constraintTop_toTopOf="@+id/aa3image2"
+        android:layout_marginStart="27dp" />
+</android.support.constraint.ConstraintLayout>
